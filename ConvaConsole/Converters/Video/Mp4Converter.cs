@@ -24,7 +24,7 @@ namespace ConvaConsole.Converters.Video
 
             foreach (YouTubeVideo youtubeVid in videoInfos)
             {
-                if(youtubeVid.Resolution > 1080 || youtubeVid.Format != VideoFormat.Mp4)
+                if(youtubeVid.Format != VideoFormat.Mp4)
                 {
                     continue;
                 }

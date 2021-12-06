@@ -14,6 +14,7 @@ namespace ConvaConsole.Converters
         public void init()
         {
             converters.Add(0, new Mp4Converter());
+            converters.Add(1, new Mp3Converter());
         }
 
         public Converter? GetConverter(string converterName)
